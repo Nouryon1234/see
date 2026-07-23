@@ -1,0 +1,140 @@
+[
+  {
+    "supplierName": "PSA BDP",
+    "id": 20251001001,
+    "date": "2025-10-01",
+    "type": "QBR",
+    "att": "Hector Gonzalez, Pascal Walgien, Elva, Jazin, Tanika, Sameer (partial attendee list from updates \u2013 likely more)",
+    "dis": "Company and market update; review of volume and financials; discussed digitization of reporting, escalation processes, quality of invoicing, and SAP BNL integration; sustainability and EcoVadis silver medal; regional improvement plans for EMEIA, NAM, APAC, ME; main themes: documentation accuracy, lead time adherence, continuous improvement.",
+    "act": "Clean up old invoices (bi-weekly call for Italy to address outstanding invoice issues).\\nAlign and digitize regional reports, review dashboard requirements.\\nImprove timely sharing of quarterly rate updates in Europe.\\nRoll out SAP TMS system implementation for KSA/ME region.\\nReview and align on booking milestone handling with NAM team.\\nShare breakdown of MISC charges separately.\\nEscalation tree to be followed within PSA BDP for issue handling.\\nQuarterly rate updates to be shared on time, with next planned update on 2025-11-18.\\nItaly bi-weekly call set up to clean up old invoices.\\nMonthly consolidated billing and improved invoice accuracy for Middle East operations.\\nSAP TM update to reflect correct vessel details in NAM region.\\nContinuous Improvement Project for KPIs; tracking bookings and documentation accuracy.\\nAuto-send documents to PSA BDP via SAP; project with SAP architect.\\nCarbon Dashboard Phase 2 planning for launch in mid 2025."
+  },
+  {
+    "supplierName": "Ruan",
+    "id": 20260304001,
+    "date": "2026-03-04",
+    "type": "QBR",
+    "att": "Todd Bratten, Landon McNaspy, Matt Coker, Derek Allen, Tim Mayo",
+    "dis": "Discussion on sales trends, volumes and activity for trucking services. Review of KPIs related to driver compliance, load acceptance, safety, maintenance, and delivery performance. Action items on TMS compliance, maintenance fees, and driver count adjustment.",
+    "act": "Weekly PM Report to include Nouryon Trailer numbers and status.\\nRuan to start adding tank wash fees to freight orders after Gilberto's approval; not to be added to Maintenance POs. Effective June 15th, 2025.\\nColumbus maintenance fees charged against Columbus PO effective immediately for assets not related to HP trailers.\\nDelay close order status to 23:59 of same day; effective immediately.\\nNouryon to decrease web settle days to 5 days to help with freight cost accrual issue; Landon to follow up.\\nRuan to decrease the driver count to 11 full time drivers week of June 23rd for 2-3 weeks; Nouryon to decide whether to bring driver count back to 12 or keep at 11.\\nWeekly PM Report to include Nouryon Trailer #\u2019s and status of trailers out in the body of the email. Todd/Mark to advise on effective date.\\nRuan to start adding tank wash fees to freight orders after approved by Gilberto via email. No tank wash fees on Maintenance PO\u2019s Effective June 15th 2025.\\nColumbus Maintenance fees will be charged against the Columbus PO effective immediately (includes any Columbus site assets not related to HP trailers). Chris Crawford and Michael Bailey are your point of contacts.\\nRuan to delay the close status to 23:59 of the same day. Please make effective immediately.\\nNouryon to decrease the web settle days to 5 days to help with freight cost accrual issue. Landon following up.\\nDriver count-Ruan to decrease the driver count to 11 full time drivers the week of June 23rd for 2-3 weeks. During this period Nouryon will decide whether to bring the driver back to 12 or reduce to 11 drivers.\\nSet up Ruan/Nouryon weekly call starting 06/16/2026.\\nRuan/Nouryon Weekly call-Landon to set up the weekly meeting starting 06/16."
+  },
+  {
+    "supplierName": "PSA BDP",
+    "id": 20250401001,
+    "date": "2025-04-01",
+    "type": "QBR",
+    "att": "Pascal Walgien, Nouryon team, PSA BDP team",
+    "dis": "Business and project updates, volume overview, global market update, financial overdue discussion, discussion of volume and KPI trends, process improvement opportunities highlighted for invoicing, routing compliance, and process automation.",
+    "act": "Timely invoicing KSA; invoicing desk created and closer monitored. KSA warehousing invoicing process re-defined and agreed with Nouryon.\\nISF sending \u2013 new reports in place to cover any missed; NL Process gap analysis to be discussed with Nouryon.\\nRoot cause analysis training held for PSA BDP Operations team to assist in assignment of non-conformances.\\nCarrier escalation contacts received from Nouryon to facilitate better response times.\\nHaz approval process timeliness improvement: add approval timeline to radar for visibility.\\nRoot cause analysis training held for PSA BDP Operations team to assist in assignment of non-conformances\\nTimely invoicing KSA, Invoicing desk created and activity are closer monitored\\nNew tender in place - could affect BKC KPI for Q2\\nKSA warehousing invoicing process re-defined and agreed with Nouryon\\nISF sending \u2013 new reports are in place to cover any missed\\nNL Process gap analysis to be discussed with Nouryon",
+    "kpis": {
+      "isfDistribution": {
+        "EMEIA": 90.95,
+        "NAM": 83.33,
+        "APAC": 100.0
+      },
+      "etaAta": {
+        "EMEIA": 91.85,
+        "NAM": 76.27,
+        "APAC": 98.18
+      },
+      "bookingReceiptCarrier": {
+        "EMEIA": 95.26,
+        "NAM": 80.66,
+        "APAC": 88.46
+      },
+      "carrierBcImoHard": {
+        "EMEIA": 90.95,
+        "NAM": 83.33,
+        "APAC": 100.0
+      },
+      "docDistribution": {
+        "EMEIA": 90.34,
+        "NAM": 87.8,
+        "APAC": 100.0
+      },
+      "docAccuracy": {
+        "EMEIA": 93.7,
+        "NAM": 98.99,
+        "APAC": 94.87
+      },
+      "routingGuideCompliance": {
+        "EMEIA": 79.47,
+        "NAM": 63.12,
+        "GLOBAL": 80.0
+      },
+      "etsAts": {
+        "EMEIA": 88.0,
+        "NAM": 86.6,
+        "APAC": 85.71
+      }
+    }
+  },
+  {
+    "supplierName": "Ruan",
+    "id": 20260304001,
+    "date": "2026-03-04",
+    "type": "QBR",
+    "att": "Todd Bratten, Landon McNaspy, Matt Coker, Derek Allen, Tim Mayo, RF NAM Sales Team",
+    "dis": "Sales discussion, volumes and activity review, KPI review, improvement opportunities and action items covered including maintenance, TMS compliance, driver reporting, and load visibility. Action items mainly focus on operational improvements, process changes, and weekly meetings setup.",
+    "act": "Weekly PM Report to include Nouryon Trailer numbers and status.\\nRuan to start adding tank wash fees to freight orders after Gilberto's approval; not to be added to Maintenance POs. Effective June 15th, 2025.\\nColumbus maintenance fees charged against Columbus PO effective immediately for assets not related to HP trailers.\\nDelay close order status to 23:59 of same day; effective immediately.\\nNouryon to decrease web settle days to 5 days to help with freight cost accrual issue; Landon to follow up.\\nRuan to decrease the driver count to 11 full time drivers week of June 23rd for 2-3 weeks; Nouryon to decide whether to bring driver count back to 12 or keep at 11.\\nWeekly PM Report to include Nouryon Trailer #\u2019s and status of trailers out in the body of the email. Todd/Mark to advise on effective date.\\nRuan to start adding tank wash fees to freight orders after approved by Gilberto via email. No tank wash fees on Maintenance PO\u2019s Effective June 15th 2025.\\nColumbus Maintenance fees will be charged against the Columbus PO effective immediately (includes any Columbus site assets not related to HP trailers). Chris Crawford and Michael Bailey are your point of contacts.\\nRuan to delay the close status to 23:59 of the same day. Please make effective immediately.\\nNouryon to decrease the web settle days to 5 days to help with freight cost accrual issue. Landon following up.\\nDriver count-Ruan to decrease the driver count to 11 full time drivers the week of June 23rd for 2-3 weeks. During this period Nouryon will decide whether to bring the driver back to 12 or reduce to 11 drivers.\\nSet up Ruan/Nouryon weekly call starting 06/16/2026.\\nRuan/Nouryon Weekly call-Landon to set up the weekly meeting starting 06/16."
+  },
+  {
+    "supplierName": "PSA BDP",
+    "id": 20251001001,
+    "date": "2025-10-01",
+    "type": "QBR",
+    "att": "Hector Gonzalez, Pascal Walgien, Nouryon and PSA BDP Management",
+    "dis": "Management and business updates, sustainability achievements (EcoVadis Silver Medal), global financial status, volume and KPI analysis by region, missed KPI reasons, and roadmap for contract extensions and process improvement.",
+    "act": "Clean up old invoices (bi-weekly call for Italy to address outstanding invoice issues).\\nAlign and digitize regional reports, review dashboard requirements.\\nImprove timely sharing of quarterly rate updates in Europe.\\nRoll out SAP TMS system implementation for KSA/ME region.\\nReview and align on booking milestone handling with NAM team.\\nShare breakdown of MISC charges separately.\\nEscalation tree to be followed within PSA BDP for issue handling.\\nQuarterly rate updates to be shared on time, with next planned update on 2025-11-18.\\nItaly bi-weekly call set up to clean up old invoices.\\nMonthly consolidated billing and improved invoice accuracy for Middle East operations.\\nSAP TM update to reflect correct vessel details in NAM region.\\nContinuous Improvement Project for KPIs; tracking bookings and documentation accuracy.\\nAuto-send documents to PSA BDP via SAP; project with SAP architect.\\nCarbon Dashboard Phase 2 planning for launch in mid 2025."
+  },
+  {
+    "supplierName": "PSA BDP",
+    "id": 20250401001,
+    "date": "2025-04-01",
+    "type": "QBR",
+    "att": "Pascal Walgien",
+    "dis": "Reviewed global business updates, volumes, operational highlights, KPI trends, and financial status. Opportunities and challenges discussed including payments, system automation, market outlook, and process improvements.",
+    "act": "Timely invoicing KSA; invoicing desk created and closer monitored. KSA warehousing invoicing process re-defined and agreed with Nouryon.\\nISF sending \u2013 new reports in place to cover any missed; NL Process gap analysis to be discussed with Nouryon.\\nRoot cause analysis training held for PSA BDP Operations team to assist in assignment of non-conformances.\\nCarrier escalation contacts received from Nouryon to facilitate better response times.\\nHaz approval process timeliness improvement: add approval timeline to radar for visibility.\\nRoot cause analysis training held for PSA BDP Operations team to assist in assignment of non-conformances\\nTimely invoicing KSA, Invoicing desk created and activity are closer monitored\\nNew tender in place - could affect BKC KPI for Q2\\nKSA warehousing invoicing process re-defined and agreed with Nouryon\\nISF sending \u2013 new reports are in place to cover any missed\\nNL Process gap analysis to be discussed with Nouryon",
+    "kpis": {
+      "isfDistribution": {
+        "EMEIA": 90.95,
+        "NAM": 83.33,
+        "APAC": 100.0
+      },
+      "etaAta": {
+        "EMEIA": 91.85,
+        "NAM": 76.27,
+        "APAC": 98.18
+      },
+      "bookingReceiptCarrier": {
+        "EMEIA": 95.26,
+        "NAM": 80.66,
+        "APAC": 88.46
+      },
+      "carrierBcImoHard": {
+        "EMEIA": 90.95,
+        "NAM": 83.33,
+        "APAC": 100.0
+      },
+      "docDistribution": {
+        "EMEIA": 90.34,
+        "NAM": 87.8,
+        "APAC": 100.0
+      },
+      "docAccuracy": {
+        "EMEIA": 93.7,
+        "NAM": 98.99,
+        "APAC": 94.87
+      },
+      "routingGuideCompliance": {
+        "EMEIA": 79.47,
+        "NAM": 63.12,
+        "GLOBAL": 80.0
+      },
+      "etsAts": {
+        "EMEIA": 88.0,
+        "NAM": 86.6,
+        "APAC": 85.71
+      }
+    }
+  }
+]
