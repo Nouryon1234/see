@@ -1454,8 +1454,10 @@ const S=[
 ];
 const NS={};S.forEach(s=>NS[s.id]=[]);
     async function loadSharePointMeetings() {
+        console.log("Current URL:", window.location.href);
+console.log("Loading SharePoint meetings...");
 
-    const response = await fetch(
+const response = await fetch(
         "/sites/SC00023T12637/_api/web/lists/GetByTitle('SRM Dashboard Meetings')/items?$top=5000",
         {
             headers: {
