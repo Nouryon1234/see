@@ -1458,7 +1458,7 @@ const NS={};S.forEach(s=>NS[s.id]=[]);
 console.log("Loading SharePoint meetings...");
 
 const response = await fetch(
-        "/sites/SC00023T12637/_api/web/lists/GetByTitle('SRM Dashboard Meetings')/items?$top=5000",
+    "https://d60c.sharepoint.com/sites/SC00023T12637/_api/web/lists/GetByTitle('SRM Dashboard Meetings')/items?$top=5000",
         {
             headers: {
                 Accept: "application/json;odata=nometadata"
