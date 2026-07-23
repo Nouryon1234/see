@@ -1490,6 +1490,28 @@ console.log('SharePoint meetings loaded:', data.value.length);
 
     });
 }
+async function loadFoundryData() {
+    try {
+        const response = await fetch("dashboard_data.json");
+        const records = await response.json();
+        console.log('Foundry records loaded:', records.length);
+        records.forEach(item => {
+            const supplier = S.find(s => s.n === item.supplierName);
+            if (!supplier) return;
+            NS[supplier.id].push({
+                id: item.id,
+                date: item.date,
+                type: item.type || '',
+                att: item.att || 'Not specified',
+                dis: item.dis || '',
+                act: item.act || '',
+                kpis: item.kpis || undefined
+            });
+        });
+    } catch (e) {
+        console.log('Foundry data not available:', e.message);
+    }
+}    
 // Supplier meeting records — one independent history entry & calendar event per meeting
 NS[15].push({id:20251022001,date:'2025-10-22',type:'Q3 2025 Business Review',att:'Not specified',
   dis:`KPIs — Dedicated OTD 99.34%, Dedicated OTL 98.46%, Bulk OTD 90%, Bulk OTP 88% (Below Target); Booking Confirmation, Rejection Reasons and Transit Time Deviations not reported. Financials — YTD shortfall of $11,861; April was the highest cost/kg month; significant savings opportunities identified through load optimization. Takeaway: dedicated business performing well, bulk transportation is the primary concern.`,
@@ -3688,6 +3710,8 @@ document.addEventListener('DOMContentLoaded', async ()=>{
 
 try {
    // await loadSharePointMeetings();
+    await loadSharePointMeetings();
+    await loadFoundryData();
 } catch (e) {
     console.error('Meeting load failed:', e);
 }
